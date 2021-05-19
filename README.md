@@ -1,7 +1,7 @@
 # pkcs7
 
-[![GoDoc](https://godoc.org/go.mozilla.org/pkcs7?status.svg)](https://godoc.org/go.mozilla.org/pkcs7)
-[![Build Status](https://github.com/mozilla-services/pkcs7/workflows/CI/badge.svg?branch=master&event=push)
+[![Go Reference](https://pkg.go.dev/badge/github.com/canonical/pkcs7.svg)](https://pkg.go.dev/github.com/canonical/pkcs7)
+[![Build Status](https://github.com/canonical/pkcs7/workflows/CI/badge.svg)
 
 pkcs7 implements parsing and creating signed and enveloped messages.
 
@@ -63,7 +63,6 @@ func SignAndDetach(content []byte, cert *x509.Certificate, privkey *rsa.PrivateK
 }
 ```
 
-
-
 ## Credits
-This is a fork of [fullsailor/pkcs7](https://github.com/fullsailor/pkcs7)
+
+This is a fork of [fullsailor/pkcs7](https://github.com/fullsailor/pkcs7) and [mozilla-services/pkcs7](https://github.com/mozilla-services/pkcs7/).
